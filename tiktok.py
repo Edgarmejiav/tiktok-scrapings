@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 from helps import read_file_to_list
 
-filename = ".ac_edits13.txt"
+filename = "back/hanma_jack01.txt"
 result = read_file_to_list(filename)
 
 driver = webdriver.Chrome()

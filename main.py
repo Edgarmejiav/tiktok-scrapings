@@ -6,7 +6,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Chrome()
-urlget = 'https://www.tiktok.com/@user'
+urlget = 'https://www.tiktok.com/@tomandjerry_jp'
 driver.get(urlget)
 sleep(9)
 actions = ActionChains(driver)
